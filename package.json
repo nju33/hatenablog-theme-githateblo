@@ -1,0 +1,32 @@
+{
+  "name": "hatenablog-github-theme",
+  "description": "Githubのようなはてなブログテーマ",
+  "version": "0.0.1",
+  "author": {
+    "name": "nju33",
+    "email": "sski0155+npm@gmail.com",
+    "url": "http://www.nju33.work/"
+  },
+  "bugs": {
+    "url": "https://github.com/totora0155/hatenablog-github/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "css-mqpacker": "^4.0.0",
+    "cssnano": "^3.4.0",
+    "postcss": "^5.0.14"
+  },
+  "homepage": "https://github.com/totora0155/hatenablog-github#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:totora0155/hatenablog-github.git"
+  },
+  "scripts": {
+    "start": "node build.js",
+    "poststart": "cat dist/index.css | pbcopy"
+  }
+}
