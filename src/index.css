@@ -43,6 +43,9 @@ body {
   margin: 0;
   color: #4078c0;
 }
+#blog-description {
+  display: none;
+}
 @media all and (max-width: 959px) {
   #title {
     margin: 0 10px;
