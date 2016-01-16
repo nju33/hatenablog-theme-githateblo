@@ -373,6 +373,9 @@ body {
     border-style: solid;
     border-color: transparent;
     border-radius: 3px 3px 0 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .page-archive-category .hatena-module .hatena-module-title {
     top: -90px;
@@ -478,7 +481,9 @@ body {
 @media all and (min-width: 960px) {
   .hatena-module-profile .hatena-module-body {
     padding: 1em;
-    max-width: 300px;
+  }
+  .hatena-module .hatena-module-body {
+    max-width: 400px;
   }
   .hatena-module-profile .btn-twitter {
     display: none;
@@ -513,6 +518,13 @@ body {
 .hatena-module-body .hatena-urllist a {
   display: block;
   padding: 6px 13px;
+}
+@media all and (min-width: 960px) {
+  .hatena-module-body .hatena-urllist a {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
 }
 .hatena-module-body .hatena-urllist .archive-module-button + a {
   padding-left: 30px;
