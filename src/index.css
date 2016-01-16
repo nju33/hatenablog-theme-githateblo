@@ -379,16 +379,7 @@ body {
     border-color: transparent;
     border-radius: 3px 3px 0 0;
   }
-  .page-archive-category .hatena-module:nth-child(1) .hatena-module-title,
-  .page-archive-category .hatena-module:nth-child(2) .hatena-module-title,
-  .page-archive-category .hatena-module:nth-child(3) .hatena-module-title,
-  .page-archive-category .hatena-module:nth-child(4) .hatena-module-title,
-  .page-archive-category .hatena-module:nth-child(5) .hatena-module-title,
-  .page-archive-category .hatena-module:nth-child(6) .hatena-module-title,
-  .page-archive-category .hatena-module:nth-child(7) .hatena-module-title,
-  .page-archive-category .hatena-module:nth-child(8) .hatena-module-title,
-  .page-archive-category .hatena-module:nth-child(9) .hatena-module-title,
-  .page-archive-category .hatena-module:nth-child(10) .hatena-module-title {
+  .page-archive-category .hatena-module .hatena-module-title {
     top: -90px;
   }
   .hatena-module .hatena-module-title:hover,
