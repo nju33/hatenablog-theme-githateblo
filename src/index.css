@@ -362,16 +362,7 @@ body {
     border-color: #51a7e8;
     color: #fff;
   }
-  .hatena-module:nth-child(1) .hatena-module-title,
-  .hatena-module:nth-child(2) .hatena-module-title,
-  .hatena-module:nth-child(3) .hatena-module-title,
-  .hatena-module:nth-child(4) .hatena-module-title,
-  .hatena-module:nth-child(5) .hatena-module-title,
-  .hatena-module:nth-child(6) .hatena-module-title,
-  .hatena-module:nth-child(7) .hatena-module-title,
-  .hatena-module:nth-child(8) .hatena-module-title,
-  .hatena-module:nth-child(9) .hatena-module-title,
-  .hatena-module:nth-child(10) .hatena-module-title {
+  .hatena-module .hatena-module-title {
     position: absolute;
     padding: .7em .3em;
     top: -59px;
